@@ -15,7 +15,7 @@
         android:gravity="center"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         />
 
     <LinearLayout
@@ -23,7 +23,6 @@
         android:layout_below="@id/txtReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
         android:layout_marginTop="5dp"
         android:orientation="vertical">
 
@@ -46,7 +45,7 @@
             android:inputType="textEmailAddress"/>
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Password"
@@ -83,12 +82,11 @@
         android:textSize="24dp"
         android:layout_below="@id/linerReg"
         android:textStyle="bold"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         />
 
 
     <LinearLayout
-        android:padding="15dp"
         android:id="@+id/linerLogin"
         android:layout_below="@id/txtLogin"
         android:layout_width="match_parent"
@@ -143,14 +141,49 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="#d6d7d7"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/linerLogin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linerLogin"
+        android:layout_toRightOf="@id/image1">
+
+        <EditText
+            android:id="@+id/etUpdateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username here..."/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"/>
+
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/txtSuccessful"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linerLogin"
+        android:layout_below="@id/image1"
         android:gravity="center"
         android:textSize="32dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="15dp"
         android:text="You are not logged in"/>
 
 
