@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563293801855",
+    "project_id": "regoster-and-login",
+    "storage_bucket": "regoster-and-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563293801855:android:2ea7eafc73c154f45c5e4a",
+        "android_client_info": {
+          "package_name": "com.example.regosterandlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563293801855-1d1p0k0qvvh62ucaq9ru6ppr50t118fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUMeZabmlwTylAo-Gkzzn0jK5k2ntj8jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563293801855-1d1p0k0qvvh62ucaq9ru6ppr50t118fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
